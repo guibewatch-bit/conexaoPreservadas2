@@ -1,0 +1,1127 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="no-js">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Conexão Preservada — Jardins Verticais, Árvores e Musgo Preservados | Joinville & Curitiba</title>
+  <meta name="description" content="Natureza 100% natural e preservada sob medida para residências de alto padrão, empresas e projetos de arquitetura em Joinville, Curitiba e região. Sem rega, poda ou luz solar." />
+
+  <link rel="canonical" href="https://conexaopreservadas.com.br/" />
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+  <meta name="theme-color" content="#0D1D0F" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:url" content="https://conexaopreservadas.com.br/" />
+  <meta property="og:title" content="Conexão Preservada — Jardins verticais e árvores preservadas" />
+  <meta property="og:description" content="Natureza de verdade no seu ambiente, sem a rotina de cuidar de plantas. Joinville, Curitiba e região." />
+  <meta property="og:image" content="https://conexaopreservadas.com.br/assets/img/IMG_1914-HDR-Editar-1024x683.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"LocalBusiness","name":"Conexão Preservada","description":"Jardins verticais, árvores e musgo preservados sob medida.","url":"https://conexaopreservadas.com.br/","telephone":"+55 47 99700-3300","image":"https://conexaopreservadas.com.br/assets/img/IMG_1914-HDR-Editar-1024x683.jpg","address":{"@type":"PostalAddress","streetAddress":"Rua Caçador, 60 – Anita Garibaldi","addressLocality":"Joinville","addressRegion":"SC","postalCode":"89203-610","addressCountry":"BR"},"areaServed":["Joinville","Curitiba"],"sameAs":["https://www.instagram.com/conexaopreservadas/","https://www.facebook.com/profile.php?id=61552122626154"]}
+  </script>
+
+  <!-- Google Fonts: Cormorant Garamond & Manrope -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/tailwind.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="bg-forest text-cream antialiased selection:bg-moss selection:text-cream pb-16 md:pb-0">
+
+  <!-- Textura sutil de granulado (noise) -->
+  <div class="noise-overlay" aria-hidden="true"></div>
+
+  <!-- Cursor Personalizado (Apenas Desktop) -->
+  <div id="custom-cursor" class="custom-cursor hidden lg:block" aria-hidden="true"></div>
+
+  <!-- ==========================================
+       0. TELA DE CARREGAMENTO CURTA (ATÉ 1.2S)
+       ========================================== -->
+  <div id="preloader" class="fixed inset-0 z-[10000] bg-forest flex flex-col items-center justify-center px-6 transition-opacity duration-500">
+    <div class="overflow-hidden mb-3">
+      <p id="preloader-brand" class="font-serif text-3xl md:text-5xl tracking-wide text-cream font-light italic translate-y-full">
+        Conexão Preservada
+      </p>
+    </div>
+    <div class="w-32 h-[1px] bg-gold/25 overflow-hidden">
+      <div id="preloader-bar" class="h-full bg-gold w-0"></div>
+    </div>
+  </div>
+
+  <!-- ==========================================
+       CABEÇALHO FIXO (TRANSPARENTE -> VIDRO FOSCO)
+       ========================================== -->
+  <header id="main-header" class="fixed top-0 left-0 right-0 z-50 transition-all duration-500 py-6 px-6 md:px-12 lg:px-20">
+    <div class="max-w-[1600px] mx-auto flex items-center justify-between">
+      <!-- Logo Real -->
+      <a href="#" class="block focus:outline-none group" aria-label="Conexão Preservada - Topo">
+        <img 
+          src="assets/img/logo-e1777405286259-300x119.png" 
+          alt="Conexão Preservada" 
+          class="h-9 md:h-11 w-auto object-contain transition-transform duration-500 group-hover:scale-[1.02]"
+          onerror="this.outerHTML='<span class=\'font-serif text-2xl tracking-wider text-cream\'>CONEXÃO PRESERVADA</span>'"
+        />
+      </a>
+
+      <!-- Links Editoriais Desktop -->
+      <nav class="hidden lg:flex items-center space-x-10 text-xs uppercase tracking-[0.2em] text-cream/80 font-medium">
+        <a href="#sobre" class="hover:text-gold transition-colors">A Botânica</a>
+        <a href="#servicos" class="hover:text-gold transition-colors">Soluções</a>
+        <a href="#projetos" class="hover:text-gold transition-colors">Acervo</a>
+        <a href="#como-trabalhamos" class="hover:text-gold transition-colors">Processo</a>
+        <a href="#faq" class="hover:text-gold transition-colors">Dúvidas</a>
+      </nav>
+
+      <!-- CTA Direto no Cabeçalho -->
+      <div class="flex items-center space-x-4">
+        <a 
+          href="https://wa.me/554797003300?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Conex%C3%A3o%20Preservada%20e%20gostaria%20de%20conversar%20sobre%20um%20projeto."
+          target="_blank"
+          rel="noopener noreferrer"
+          class="magnetic-btn inline-flex items-center space-x-2.5 border border-gold/40 bg-forest/40 hover:bg-moss hover:border-moss text-cream px-5 py-2.5 rounded-full text-xs uppercase tracking-[0.16em] transition-all duration-300"
+        >
+          <span class="w-1.5 h-1.5 rounded-full bg-gold"></span>
+          <span>Atendimento</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================
+         1. HERO SECTION (KEN BURNS + WORD MASK)
+         ========================================== -->
+    <section class="relative min-h-screen w-full flex items-end pb-20 md:pb-24 pt-36 px-6 md:px-12 lg:px-20 overflow-hidden">
+      <!-- Imagem de Fundo em Tela Cheia com Zoom Lento -->
+      <div class="absolute inset-0 z-0 overflow-hidden bg-forest">
+        <img 
+          src="assets/img/IMG_1914-HDR-Editar-1536x1024.jpg" srcset="assets/img/IMG_1914-HDR-Editar-768x512.jpg 768w, assets/img/IMG_1914-HDR-Editar-1536x1024.jpg 1536w" sizes="100vw" 
+          alt="Jardim Vertical Natural Preservado por Conexão Preservada" 
+          class="w-full h-full object-cover object-center ken-burns opacity-65"
+          fetchpriority="high"
+          onerror="this.src='https://placehold.co/1920x1080/0D1D0F/F4F1EA?text=Conexao+Preservada'"
+        />
+        <!-- Gradiente Arquitetônico para leitura perfeita -->
+        <div class="absolute inset-0 bg-gradient-to-t from-forest via-forest/55 to-forest/30"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-forest/80 via-forest/30 to-transparent"></div>
+      </div>
+
+      <!-- Conteúdo Assimétrico do Hero -->
+      <div class="relative z-10 max-w-[1600px] mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-10 items-end">
+        <div class="lg:col-span-9">
+          <div class="flex items-center space-x-3 mb-6 opacity-90">
+            <span class="w-8 h-[1px] bg-gold"></span>
+            <span class="eyebrow text-gold">Botânica 100% Natural Preservada · Joinville & Curitiba</span>
+          </div>
+
+          <!-- Título com palavras que entram com máscara de baixo para cima -->
+          <h1 id="hero-title" class="title-hero text-cream mb-8">
+            <span class="word-mask"><span class="word-inner">Natureza</span></span>
+            <span class="word-mask"><span class="word-inner italic font-normal text-sage">de</span></span>
+            <span class="word-mask"><span class="word-inner italic font-normal text-sage">verdade</span></span>
+            <span class="word-mask"><span class="word-inner">no</span></span>
+            <span class="word-mask"><span class="word-inner">seu</span></span>
+            <span class="word-mask"><span class="word-inner">ambiente,</span></span>
+            <span class="word-mask"><span class="word-inner">sem</span></span>
+            <span class="word-mask"><span class="word-inner">a</span></span>
+            <span class="word-mask"><span class="word-inner italic font-normal">rotina</span></span>
+            <span class="word-mask"><span class="word-inner">de</span></span>
+            <span class="word-mask"><span class="word-inner">cuidar</span></span>
+            <span class="word-mask"><span class="word-inner">de</span></span>
+            <span class="word-mask"><span class="word-inner">plantas.</span></span>
+          </h1>
+        </div>
+
+        <div class="lg:col-span-8 flex flex-col md:flex-row md:items-end justify-between gap-8 pt-4 border-t border-gold/25">
+          <p class="text-cream/85 font-light text-base md:text-lg max-w-xl leading-relaxed">
+            Jardins verticais, árvores e musgo preservados, feitos sob medida para casas, empresas e projetos de arquitetura em Joinville, Curitiba e região.
+          </p>
+
+          <div class="flex flex-wrap items-center gap-4 shrink-0">
+            <a 
+              href="https://wa.me/554797003300?text=Ol%C3%A1%21%20Gostaria%20de%20pedir%20um%20or%C3%A7amento%20para%20um%20projeto%20com%20plantas%20preservadas."
+              target="_blank"
+              rel="noopener noreferrer"
+              class="magnetic-btn inline-flex items-center justify-center space-x-3 bg-moss hover:bg-[#365f10] text-cream px-8 py-4 rounded-full text-sm font-medium tracking-wide transition-all duration-300 shadow-lg shadow-black/25"
+            >
+              <span>Pedir orçamento</span>
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.75" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+            </a>
+
+            <a 
+              href="#projetos"
+              class="magnetic-btn inline-flex items-center justify-center px-7 py-4 rounded-full border border-cream/30 hover:border-gold text-cream text-sm font-light tracking-wide transition-colors duration-300"
+            >
+              Ver projetos
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         2. FAIXA DE CREDIBILIDADE + MARQUEE INFINITO
+         ========================================== -->
+    <section class="bg-forest border-y border-gold/20 py-10 overflow-hidden">
+      <div class="max-w-[1600px] mx-auto px-6 md:px-12 lg:px-20 mb-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 text-center md:text-left items-center">
+          <div class="flex items-center justify-center md:justify-start space-x-4">
+            <span class="font-serif italic text-3xl md:text-4xl text-gold">CASACOR</span>
+            <div class="text-left">
+              <p class="text-xs uppercase tracking-[0.2em] text-cream/90">Presente na CASACOR SC <span class="counter-num" data-target="2025">2025</span></p>
+              <p class="text-xs text-cream/50 font-light">Mostra Itapema · Augen Arquitetura</p>
+            </div>
+          </div>
+
+          <div class="flex items-center justify-center space-x-4 md:border-x border-gold/20 py-2">
+            <span class="font-serif italic text-3xl md:text-4xl text-gold"><span class="counter-num" data-target="3">3</span> anos</span>
+            <div class="text-left">
+              <p class="text-xs uppercase tracking-[0.2em] text-cream/90">De projetos executados</p>
+              <p class="text-xs text-cream/50 font-light">Produção autoral em Joinville</p>
+            </div>
+          </div>
+
+          <div class="flex items-center justify-center md:justify-end space-x-4">
+            <span class="font-serif italic text-3xl md:text-4xl text-gold"><span class="counter-num" data-target="40">40</span> km</span>
+            <div class="text-left">
+              <p class="text-xs uppercase tracking-[0.2em] text-cream/90">Joinville, Curitiba e região</p>
+              <p class="text-xs text-cream/50 font-light">Atendimento com equipe própria</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Faixa Marquee Infinito de Parceiros, Mostras e Tipologias -->
+      <div class="pt-6 border-t border-gold/10 relative flex items-center overflow-hidden">
+        <div class="marquee-track flex items-center space-x-16 text-cream/40 uppercase tracking-[0.28em] text-xs font-light">
+          <!-- Bloco 1 -->
+          <div class="flex items-center space-x-16 shrink-0">
+            <span class="font-serif italic text-lg tracking-normal text-cream/60">CASACOR SC 2025</span>
+            <span class="text-gold/40">✦</span>
+            <span>Augen Arquitetura</span>
+            <span class="text-gold/40">✦</span>
+            <span class="font-serif italic text-lg tracking-normal text-cream/60">Residências Alto Padrão</span>
+            <span class="text-gold/40">✦</span>
+            <span>Sedes Corporativas</span>
+            <span class="text-gold/40">✦</span>
+            <span class="font-serif italic text-lg tracking-normal text-cream/60">Clínicas & Boutiques</span>
+            <span class="text-gold/40">✦</span>
+            <span>Hotéis & Gastronomia</span>
+            <span class="text-gold/40">✦</span>
+            <span class="font-serif italic text-lg tracking-normal text-cream/60">Escritórios de Arquitetura</span>
+            <span class="text-gold/40">✦</span>
+          </div>
+          <!-- Bloco 2 (Duplicado para loop perfeito) -->
+          <div class="flex items-center space-x-16 shrink-0" aria-hidden="true">
+            <span class="font-serif italic text-lg tracking-normal text-cream/60">CASACOR SC 2025</span>
+            <span class="text-gold/40">✦</span>
+            <span>Augen Arquitetura</span>
+            <span class="text-gold/40">✦</span>
+            <span class="font-serif italic text-lg tracking-normal text-cream/60">Residências Alto Padrão</span>
+            <span class="text-gold/40">✦</span>
+            <span>Sedes Corporativas</span>
+            <span class="text-gold/40">✦</span>
+            <span class="font-serif italic text-lg tracking-normal text-cream/60">Clínicas & Boutiques</span>
+            <span class="text-gold/40">✦</span>
+            <span>Hotéis & Gastronomia</span>
+            <span class="text-gold/40">✦</span>
+            <span class="font-serif italic text-lg tracking-normal text-cream/60">Escritórios de Arquitetura</span>
+            <span class="text-gold/40">✦</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         3. SOBRE (FUNDO CREME #F4F1EA · COMPOSIÇÃO ASSIMÉTRICA)
+         ========================================== -->
+    <section id="sobre" class="bg-cream text-forest py-28 md:py-40 px-6 md:px-12 lg:px-20">
+      <div class="max-w-[1600px] mx-auto">
+        <!-- Cabeçalho Assimétrico -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start mb-20 md:mb-28">
+          <div class="lg:col-span-4">
+            <p class="eyebrow text-moss mb-3">01 / A Essência da Preservação</p>
+            <div class="w-16 h-[1px] bg-gold"></div>
+          </div>
+
+          <div class="lg:col-span-8">
+            <h2 class="title-section text-forest">
+              Uma empresa de Joinville que leva o <span class="italic font-normal text-moss">verde</span> para onde a planta viva não chega.
+            </h2>
+          </div>
+        </div>
+
+        <!-- Corpo Editorial + Fotos Assimétricas -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+          <!-- Imagem Principal CASACOR com Clip-Path e Parallax -->
+          <div class="lg:col-span-6 relative">
+            <div class="reveal-clip overflow-hidden rounded-sm aspect-[4/5] bg-sage relative">
+              <img 
+                src="assets/img/CASACOR-SC-ITAPEMA-2025-Augen-Arquitetura-Conexao-entre-Caminhos-Foto-Lio-Simas-3-1071x1536.jpg" srcset="assets/img/CASACOR-SC-ITAPEMA-2025-Augen-Arquitetura-Conexao-entre-Caminhos-Foto-Lio-Simas-3-768x1102.jpg 768w, assets/img/CASACOR-SC-ITAPEMA-2025-Augen-Arquitetura-Conexao-entre-Caminhos-Foto-Lio-Simas-3-1071x1536.jpg 1071w" sizes="(max-width: 767px) 100vw, 60vw" loading="lazy" 
+                alt="Ambiente Conexão entre Caminhos na CASACOR SC 2025 com Augen Arquitetura"
+                class="parallax-img w-full h-[114%] object-cover -mt-[7%]"
+                onerror="this.src='https://placehold.co/1071x1536/E6ECDF/0D1D0F?text=CASACOR+SC+2025'"
+              />
+            </div>
+            <div class="mt-4 flex items-center justify-between text-xs text-slateText tracking-wider uppercase">
+              <span>CASACOR SC 2025 · Augen Arquitetura</span>
+              <span class="text-gold font-medium">Foto: Lio Simas</span>
+            </div>
+          </div>
+
+          <!-- Texto Explicativo + Segunda Foto Menor -->
+          <div class="lg:col-span-6 lg:pl-10 space-y-8">
+            <div class="space-y-6 text-slateText text-base md:text-lg font-light leading-relaxed">
+              <p class="text-forest text-xl md:text-2xl font-serif italic leading-snug">
+                “Não é planta artificial. É folha, caule e musgo colhidos no auge do seu frescor e estabilizados no tempo.”
+              </p>
+              <p>
+                Por meio de um cuidadoso processo biológico de preservação, a seiva natural da planta é substituída por um conservante ecológico. O resultado mantém a textura macia, o aroma suave de mata e a tonalidade autêntica de uma folha viva — sem demandar água, luz solar ou podas.
+              </p>
+              <p>
+                Cada painel, árvore escultural ou composição em musgo é desenhado e produzido sob medida em nosso ateliê em Joinville, respeitando a arquitetura, a acústica e a iluminação de cada espaço.
+              </p>
+              <p>
+                Em 2025, assinamos a botânica preservada do ambiente <strong class="font-medium text-forest">“Conexão entre Caminhos”</strong> na <strong class="font-medium text-forest">CASACOR Santa Catarina</strong>, em parceria com o escritório Augen Arquitetura.
+              </p>
+            </div>
+
+            <!-- Imagem Secundária de Detalhe -->
+            <div class="pt-6 grid grid-cols-1 sm:grid-cols-12 gap-8 items-end">
+              <div class="sm:col-span-7 reveal-clip overflow-hidden rounded-sm aspect-[16/11] bg-sage">
+                <img 
+                  src="assets/img/IMG_1919-HDR-Editar-1536x1024.jpg" srcset="assets/img/IMG_1919-HDR-Editar-768x512.jpg 768w, assets/img/IMG_1919-HDR-Editar-1536x1024.jpg 1536w" sizes="(max-width: 767px) 100vw, 60vw" loading="lazy" 
+                  alt="Detalhe de textura natural preservada"
+                  class="parallax-img w-full h-[112%] object-cover -mt-[6%]"
+                />
+              </div>
+              <div class="sm:col-span-5 space-y-3 border-l border-gold/40 pl-5">
+                <span class="font-serif italic text-3xl text-moss block">100% Natural</span>
+                <p class="text-xs text-slateText leading-relaxed">
+                  Toque flexível, aparência orgânica real e liberdade para instalar em halls internos, lavabos, salas de reunião e pés-direitos duplos sem sol.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         4. SERVIÇOS (LISTA EDITORIAL COM FOTO FLUTUANTE NO HOVER)
+         ========================================== -->
+    <section id="servicos" class="bg-cream text-forest pb-28 md:pb-40 px-6 md:px-12 lg:px-20">
+      <!-- Container Flutuante de Imagem que segue o Cursor no Desktop -->
+      <div id="service-hover-preview" aria-hidden="true">
+        <img id="service-hover-img" src="assets/img/IMG_1825-Editar-1536x1024.jpg" srcset="assets/img/IMG_1825-Editar-768x512.jpg 768w, assets/img/IMG_1825-Editar-1536x1024.jpg 1536w" sizes="(max-width: 767px) 100vw, 60vw" loading="lazy" alt="" class="w-full h-full object-cover" />
+      </div>
+
+      <div class="max-w-[1600px] mx-auto">
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
+          <div>
+            <p class="eyebrow text-moss mb-3">02 / O Que Criamos</p>
+            <h2 class="title-section text-forest">
+              Botânica autoral <span class="italic font-normal text-moss">sob medida.</span>
+            </h2>
+          </div>
+          <p class="text-slateText text-sm md:text-base max-w-md font-light">
+            Passe o cursor sobre cada solução para visualizar nosso trabalho ou solicite atendimento direto para o seu projeto.
+          </p>
+        </div>
+
+        <!-- Lista Editorial -->
+        <div class="border-t border-gold/40">
+          <!-- Item 01 -->
+          <div 
+            class="service-row group border-b border-gold/40 py-10 md:py-12 transition-colors duration-300 hover:bg-sage/50 px-2 md:px-6 cursor-pointer"
+            data-image="assets/img/IMG_1825-Editar-1536x1024.jpg"
+          >
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+              <div class="lg:col-span-1 text-gold font-serif italic text-2xl">01</div>
+              <div class="lg:col-span-5">
+                <h3 class="font-serif text-3xl md:text-5xl text-forest font-light group-hover:italic group-hover:translate-x-2 transition-all duration-300">
+                  Jardim vertical preservado
+                </h3>
+              </div>
+              <div class="lg:col-span-4 text-slateText text-sm md:text-base font-light">
+                Painéis botânicos exuberantes com mix de folhagens, samambaias e avencas naturais preservadas. Sem irrigação, sem infiltração e com excelente conforto acústico.
+              </div>
+              <div class="lg:col-span-2 flex lg:justify-end">
+                <a 
+                  href="https://wa.me/554797003300?text=Ol%C3%A1%21%20Tenho%20interesse%20em%20um%20Jardim%20Vertical%20Preservado%20e%20gostaria%20de%20um%20or%C3%A7amento."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="inline-flex items-center space-x-2 text-xs uppercase tracking-[0.2em] text-moss font-medium group-hover:text-forest"
+                >
+                  <span>Orçar jardim</span>
+                  <span class="transition-transform duration-300 group-hover:translate-x-1">→</span>
+                </a>
+              </div>
+            </div>
+            <!-- Imagem Visível no Mobile -->
+            <div class="mt-6 lg:hidden overflow-hidden rounded-sm aspect-[16/10]">
+              <img src="assets/img/IMG_1825-Editar-1536x1024.jpg" srcset="assets/img/IMG_1825-Editar-768x512.jpg 768w, assets/img/IMG_1825-Editar-1536x1024.jpg 1536w" sizes="(max-width: 767px) 100vw, 60vw" loading="lazy" alt="Jardim vertical preservado" class="w-full h-full object-cover" />
+            </div>
+          </div>
+
+          <!-- Item 02 -->
+          <div 
+            class="service-row group border-b border-gold/40 py-10 md:py-12 transition-colors duration-300 hover:bg-sage/50 px-2 md:px-6 cursor-pointer"
+            data-image="assets/img/IMG_2000-HDR-Editar-1024x1536.jpg"
+          >
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+              <div class="lg:col-span-1 text-gold font-serif italic text-2xl">02</div>
+              <div class="lg:col-span-5">
+                <h3 class="font-serif text-3xl md:text-5xl text-forest font-light group-hover:italic group-hover:translate-x-2 transition-all duration-300">
+                  Árvores preservadas
+                </h3>
+              </div>
+              <div class="lg:col-span-4 text-slateText text-sm md:text-base font-light">
+                Árvores esculturais montadas artesanalmente com troncos naturais tratados e copas frondosas, desenhadas na altura e proporção exatas do seu ambiente.
+              </div>
+              <div class="lg:col-span-2 flex lg:justify-end">
+                <a 
+                  href="https://wa.me/554797003300?text=Ol%C3%A1%21%20Tenho%20interesse%20em%20%C3%81rvores%20Preservadas%20sob%20medida%20para%20o%20meu%20espa%C3%A7o."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="inline-flex items-center space-x-2 text-xs uppercase tracking-[0.2em] text-moss font-medium group-hover:text-forest"
+                >
+                  <span>Orçar árvore</span>
+                  <span class="transition-transform duration-300 group-hover:translate-x-1">→</span>
+                </a>
+              </div>
+            </div>
+            <!-- Imagem Visível no Mobile -->
+            <div class="mt-6 lg:hidden overflow-hidden rounded-sm aspect-[4/3]">
+              <img src="assets/img/IMG_2000-HDR-Editar-1024x1536.jpg" srcset="assets/img/IMG_2000-HDR-Editar-683x1024.jpg 683w, assets/img/IMG_2000-HDR-Editar-1024x1536.jpg 1024w" sizes="(max-width: 767px) 100vw, 60vw" loading="lazy" alt="Árvores preservadas" class="w-full h-full object-cover" />
+            </div>
+          </div>
+
+          <!-- Item 03 -->
+          <div 
+            class="service-row group border-b border-gold/40 py-10 md:py-12 transition-colors duration-300 hover:bg-sage/50 px-2 md:px-6 cursor-pointer"
+            data-image="assets/img/IMG_1961-Editar-Editar-1024x1536.jpg"
+          >
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+              <div class="lg:col-span-1 text-gold font-serif italic text-2xl">03</div>
+              <div class="lg:col-span-5">
+                <h3 class="font-serif text-3xl md:text-5xl text-forest font-light group-hover:italic group-hover:translate-x-2 transition-all duration-300">
+                  Musgo preservado
+                </h3>
+              </div>
+              <div class="lg:col-span-4 text-slateText text-sm md:text-base font-light">
+                Quadros vivos, nichos retroiluminados e superfícies orgânicas em musgo bola e plano. Textura aveludada e relevo tridimensional minimalista.
+              </div>
+              <div class="lg:col-span-2 flex lg:justify-end">
+                <a 
+                  href="https://wa.me/554797003300?text=Ol%C3%A1%21%20Tenho%20interesse%20em%20um%20projeto%20com%20Musgo%20Preservado."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="inline-flex items-center space-x-2 text-xs uppercase tracking-[0.2em] text-moss font-medium group-hover:text-forest"
+                >
+                  <span>Orçar musgo</span>
+                  <span class="transition-transform duration-300 group-hover:translate-x-1">→</span>
+                </a>
+              </div>
+            </div>
+            <!-- Imagem Visível no Mobile -->
+            <div class="mt-6 lg:hidden overflow-hidden rounded-sm aspect-[4/3]">
+              <img src="assets/img/IMG_1961-Editar-Editar-1024x1536.jpg" srcset="assets/img/IMG_1961-Editar-Editar-683x1024.jpg 683w, assets/img/IMG_1961-Editar-Editar-1024x1536.jpg 1024w" sizes="(max-width: 767px) 100vw, 60vw" loading="lazy" alt="Musgo preservado" class="w-full h-full object-cover" />
+            </div>
+          </div>
+
+          <!-- Item 04 -->
+          <div 
+            class="service-row group border-b border-gold/40 py-10 md:py-12 transition-colors duration-300 hover:bg-sage/50 px-2 md:px-6 cursor-pointer"
+            data-image="assets/img/CASACOR-SC-ITAPEMA-2025-Augen-Arquitetura-Conexao-entre-Caminhos-Foto-Lio-Simas-3-1071x1536.jpg"
+          >
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-center">
+              <div class="lg:col-span-1 text-gold font-serif italic text-2xl">04</div>
+              <div class="lg:col-span-5">
+                <h3 class="font-serif text-3xl md:text-5xl text-forest font-light group-hover:italic group-hover:translate-x-2 transition-all duration-300">
+                  Projetos para arquitetos e designers
+                </h3>
+              </div>
+              <div class="lg:col-span-4 text-slateText text-sm md:text-base font-light">
+                Atendimento técnico dedicado a escritórios: leitura de detalhamentos em marcenaria e gesso, estudo de volumetria, amostras físicas e execução fiel ao render.
+              </div>
+              <div class="lg:col-span-2 flex lg:justify-end">
+                <a 
+                  href="https://wa.me/554797003300?text=Ol%C3%A1%21%20Sou%20arquiteto%28a%29%2Fdesigner%20e%20gostaria%20de%20cotar%20um%20projeto%20com%20a%20Conex%C3%A3o%20Preservada."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="inline-flex items-center space-x-2 text-xs uppercase tracking-[0.2em] text-moss font-medium group-hover:text-forest"
+                >
+                  <span>Falar com técnico</span>
+                  <span class="transition-transform duration-300 group-hover:translate-x-1">→</span>
+                </a>
+              </div>
+            </div>
+            <!-- Imagem Visível no Mobile -->
+            <div class="mt-6 lg:hidden overflow-hidden rounded-sm aspect-[4/3]">
+              <img src="assets/img/CASACOR-SC-ITAPEMA-2025-Augen-Arquitetura-Conexao-entre-Caminhos-Foto-Lio-Simas-3-1071x1536.jpg" srcset="assets/img/CASACOR-SC-ITAPEMA-2025-Augen-Arquitetura-Conexao-entre-Caminhos-Foto-Lio-Simas-3-768x1102.jpg 768w, assets/img/CASACOR-SC-ITAPEMA-2025-Augen-Arquitetura-Conexao-entre-Caminhos-Foto-Lio-Simas-3-1071x1536.jpg 1071w" sizes="(max-width: 767px) 100vw, 60vw" loading="lazy" alt="Projetos para arquitetos" class="w-full h-full object-cover" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         5. DIFERENCIAIS (FUNDO SÁLVIA #E6ECDF)
+         ========================================== -->
+    <section class="bg-sage text-forest py-24 md:py-36 px-6 md:px-12 lg:px-20">
+      <div class="max-w-[1600px] mx-auto">
+        <div class="max-w-3xl mb-16 md:mb-24">
+          <p class="eyebrow text-moss mb-3">03 / Por Que Escolher o Preservado</p>
+          <h2 class="title-section text-forest">
+            A presença sensorial da mata viva, com a <span class="italic font-normal text-moss">praticidade</span> que a arquitetura contemporânea pede.
+          </h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-14">
+          <!-- Dif 1 -->
+          <div class="border-t border-gold/50 pt-6">
+            <span class="font-serif italic text-gold text-xl block mb-3">I.</span>
+            <h3 class="font-serif text-2xl md:text-3xl text-forest mb-3">Planta natural, não artificial</h3>
+            <p class="text-slateText text-sm md:text-base font-light leading-relaxed">
+              Sem brilho plástico ou folhas repetidas de fábrica. Cada ramo é autêntico, preservado com sua anatomia e caimento originais.
+            </p>
+          </div>
+
+          <!-- Dif 2 -->
+          <div class="border-t border-gold/50 pt-6">
+            <span class="font-serif italic text-gold text-xl block mb-3">II.</span>
+            <h3 class="font-serif text-2xl md:text-3xl text-forest mb-3">Cuidado mínimo no dia a dia</h3>
+            <p class="text-slateText text-sm md:text-base font-light leading-relaxed">
+              Não exige rega, adubação ou poda periódica. A conservação resume-se a retirar o pó superficial ocasionalmente com espanador macio ou jato de ar frio.
+            </p>
+          </div>
+
+          <!-- Dif 3 -->
+          <div class="border-t border-gold/50 pt-6">
+            <span class="font-serif italic text-gold text-xl block mb-3">III.</span>
+            <h3 class="font-serif text-2xl md:text-3xl text-forest mb-3">Instalação limpa e sem obra</h3>
+            <p class="text-slateText text-sm md:text-base font-light leading-relaxed">
+              Sem terra, impermeabilização, ponto hidráulico, dreno ou iluminação UV específica. Ideal para ambientes já prontos e mobiliados.
+            </p>
+          </div>
+
+          <!-- Dif 4 -->
+          <div class="border-t border-gold/50 pt-6">
+            <span class="font-serif italic text-gold text-xl block mb-3">IV.</span>
+            <h3 class="font-serif text-2xl md:text-3xl text-forest mb-3">Sem insetos nem mofo</h3>
+            <p class="text-slateText text-sm md:text-base font-light leading-relaxed">
+              Como não há terra úmida nem matéria em decomposição, as plantas preservadas não atraem mosquitos, formigas ou fungos para dentro do imóvel.
+            </p>
+          </div>
+
+          <!-- Dif 5 -->
+          <div class="border-t border-gold/50 pt-6">
+            <span class="font-serif italic text-gold text-xl block mb-3">V.</span>
+            <h3 class="font-serif text-2xl md:text-3xl text-forest mb-3">Feito 100% sob medida</h3>
+            <p class="text-slateText text-sm md:text-base font-light leading-relaxed">
+              Desenhamos a densidade, a paleta de verdes e o relevo de acordo com o mobiliário, recortes de marcenaria, curvas e iluminação do projeto.
+            </p>
+          </div>
+
+          <!-- Dif 6 -->
+          <div class="border-t border-gold/50 pt-6">
+            <span class="font-serif italic text-gold text-xl block mb-3">VI.</span>
+            <h3 class="font-serif text-2xl md:text-3xl text-forest mb-3">Equipe própria e local</h3>
+            <p class="text-slateText text-sm md:text-base font-light leading-relaxed">
+              Do primeiro atendimento à instalação final em Joinville, Curitiba e litoral catarinense, tudo é executado pela nossa equipe especializada.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         6. PROJETOS (GALERIA HORIZONTAL PINADA NO DESKTOP / SWIPE NO MOBILE)
+         ========================================== -->
+    <section id="projetos" class="bg-forest text-cream relative overflow-hidden">
+      <div id="projects-pin-wrapper" class="py-24 lg:py-0 lg:h-screen flex flex-col justify-center">
+        <!-- Cabeçalho da Galeria -->
+        <div class="max-w-[1600px] w-full mx-auto px-6 md:px-12 lg:px-20 mb-10 lg:mb-12 flex flex-col md:flex-row md:items-end justify-between gap-4 shrink-0">
+          <div>
+            <p class="eyebrow text-gold mb-2">04 / Acervo Selecionado</p>
+            <h2 class="title-section text-cream">
+              Obras <span class="italic font-normal text-sage">entregues.</span>
+            </h2>
+          </div>
+          <div class="flex items-center space-x-6">
+            <p class="text-xs uppercase tracking-[0.2em] text-gold/80">
+              <span class="hidden lg:inline">Role para navegar pela galeria →</span>
+              <span class="lg:hidden">Deslize para o lado →</span>
+            </p>
+          </div>
+        </div>
+
+        <!-- Trilho Horizontal -->
+        <div class=" pl-6 md:pl-12 lg:pl-20">
+          <div 
+            id="projects-track" 
+            class="flex items-stretch gap-6 md:gap-10 overflow-x-auto lg:overflow-visible no-scrollbar snap-x snap-mandatory pr-6 md:pr-20"
+          >
+            <!-- Slide 1: CASACOR SC 2025 -->
+            <article class="project-card shrink-0 w-[84vw] sm:w-[420px] lg:w-[440px] snap-start flex flex-col justify-between">
+              <div class="overflow-hidden rounded-sm aspect-[3/4] bg-moss/20 mb-4">
+                <img 
+                  src="assets/img/CASACOR-SC-ITAPEMA-2025-Augen-Arquitetura-Conexao-entre-Caminhos-Foto-Lio-Simas-3-1071x1536.jpg" srcset="assets/img/CASACOR-SC-ITAPEMA-2025-Augen-Arquitetura-Conexao-entre-Caminhos-Foto-Lio-Simas-3-768x1102.jpg 768w, assets/img/CASACOR-SC-ITAPEMA-2025-Augen-Arquitetura-Conexao-entre-Caminhos-Foto-Lio-Simas-3-1071x1536.jpg 1071w" sizes="(max-width: 767px) 100vw, 60vw" loading="lazy" 
+                  alt="CASACOR SC 2025 · Augen Arquitetura · Foto: Lio Simas"
+                  class="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                />
+              </div>
+              <div class="flex items-baseline justify-between border-t border-gold/25 pt-3 text-xs">
+                <span class="text-cream font-medium tracking-wide">CASACOR SC 2025 · Augen Arquitetura</span>
+                <span class="text-gold">Foto: Lio Simas</span>
+              </div>
+            </article>
+
+            <!-- Slide 2 -->
+            <article class="project-card shrink-0 w-[84vw] sm:w-[540px] lg:w-[600px] snap-start flex flex-col justify-between">
+              <div class="overflow-hidden rounded-sm aspect-[16/11] bg-moss/20 mb-4">
+                <img 
+                  src="assets/img/IMG_1919-HDR-Editar-1536x1024.jpg" srcset="assets/img/IMG_1919-HDR-Editar-768x512.jpg 768w, assets/img/IMG_1919-HDR-Editar-1536x1024.jpg 1536w" sizes="(max-width: 767px) 100vw, 60vw" loading="lazy" 
+                  alt="Composição botânica residencial sob medida"
+                  class="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                />
+              </div>
+              <div class="flex items-baseline justify-between border-t border-gold/25 pt-3 text-xs">
+                <span class="text-cream font-medium tracking-wide">Jardim Vertical em Living Integrado</span>
+                <span class="text-cream/50">Residência · Joinville</span>
+              </div>
+            </article>
+
+            <!-- Slide 3 -->
+            <article class="project-card shrink-0 w-[84vw] sm:w-[420px] lg:w-[440px] snap-start flex flex-col justify-between">
+              <div class="overflow-hidden rounded-sm aspect-[3/4] bg-moss/20 mb-4">
+                <img 
+                  src="assets/img/IMG_2000-HDR-Editar-1024x1536.jpg" srcset="assets/img/IMG_2000-HDR-Editar-683x1024.jpg 683w, assets/img/IMG_2000-HDR-Editar-1024x1536.jpg 1024w" sizes="(max-width: 767px) 100vw, 60vw" loading="lazy" 
+                  alt="Árvore preservada e jardim vertical"
+                  class="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                />
+              </div>
+              <div class="flex items-baseline justify-between border-t border-gold/25 pt-3 text-xs">
+                <span class="text-cream font-medium tracking-wide">Árvore Escultural & Painel Orgânico</span>
+                <span class="text-cream/50">Alto Padrão</span>
+              </div>
+            </article>
+
+            <!-- Slide 4 -->
+            <article class="project-card shrink-0 w-[84vw] sm:w-[540px] lg:w-[600px] snap-start flex flex-col justify-between">
+              <div class="overflow-hidden rounded-sm aspect-[16/11] bg-moss/20 mb-4">
+                <img 
+                  src="assets/img/IMG_1825-Editar-1536x1024.jpg" srcset="assets/img/IMG_1825-Editar-768x512.jpg 768w, assets/img/IMG_1825-Editar-1536x1024.jpg 1536w" sizes="(max-width: 767px) 100vw, 60vw" loading="lazy" 
+                  alt="Painel de folhagens preservadas"
+                  class="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                />
+              </div>
+              <div class="flex items-baseline justify-between border-t border-gold/25 pt-3 text-xs">
+                <span class="text-cream font-medium tracking-wide">Parede Verde com Iluminação Cênica</span>
+                <span class="text-cream/50">Arquitetura Corporativa</span>
+              </div>
+            </article>
+
+            <!-- Slide 5 -->
+            <article class="project-card shrink-0 w-[84vw] sm:w-[420px] lg:w-[440px] snap-start flex flex-col justify-between">
+              <div class="overflow-hidden rounded-sm aspect-[3/4] bg-moss/20 mb-4">
+                <img 
+                  src="assets/img/IMG_1961-Editar-Editar-1024x1536.jpg" srcset="assets/img/IMG_1961-Editar-Editar-683x1024.jpg 683w, assets/img/IMG_1961-Editar-Editar-1024x1536.jpg 1024w" sizes="(max-width: 767px) 100vw, 60vw" loading="lazy" 
+                  alt="Detalhe vertical de plantas preservadas"
+                  class="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                />
+              </div>
+              <div class="flex items-baseline justify-between border-t border-gold/25 pt-3 text-xs">
+                <span class="text-cream font-medium tracking-wide">Recorte Botânico em Marcenaria</span>
+                <span class="text-cream/50">Sob Medida</span>
+              </div>
+            </article>
+
+            <!-- Slide 6 -->
+            <article class="project-card shrink-0 w-[84vw] sm:w-[420px] lg:w-[440px] snap-start flex flex-col justify-between">
+              <div class="overflow-hidden rounded-sm aspect-[3/4] bg-moss/20 mb-4">
+                <img 
+                  src="assets/img/IMG_1875-HDR-Editar-1024x1536.jpg" srcset="assets/img/IMG_1875-HDR-Editar-683x1024.jpg 683w, assets/img/IMG_1875-HDR-Editar-1024x1536.jpg 1024w" sizes="(max-width: 767px) 100vw, 60vw" loading="lazy" 
+                  alt="Composição vertical natural"
+                  class="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                />
+              </div>
+              <div class="flex items-baseline justify-between border-t border-gold/25 pt-3 text-xs">
+                <span class="text-cream font-medium tracking-wide">Jardim Vertical em Pé-Direito Duplo</span>
+                <span class="text-cream/50">Joinville · SC</span>
+              </div>
+            </article>
+
+            <!-- Slide 7 -->
+            <article class="project-card shrink-0 w-[84vw] sm:w-[540px] lg:w-[600px] snap-start flex flex-col justify-between">
+              <div class="overflow-hidden rounded-sm aspect-[16/11] bg-moss/20 mb-4">
+                <img 
+                  src="assets/img/IMG_1953-Editar-1536x1024.jpg" srcset="assets/img/IMG_1953-Editar-768x512.jpg 768w, assets/img/IMG_1953-Editar-1536x1024.jpg 1536w" sizes="(max-width: 767px) 100vw, 60vw" loading="lazy" 
+                  alt="Projeto corporativo com plantas preservadas"
+                  class="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                />
+              </div>
+              <div class="flex items-baseline justify-between border-t border-gold/25 pt-3 text-xs">
+                <span class="text-cream font-medium tracking-wide">Ambiente de Recepção & Convivência</span>
+                <span class="text-cream/50">Projeto Autoral</span>
+              </div>
+            </article>
+
+            <!-- Slide 8 -->
+            <article class="project-card shrink-0 w-[84vw] sm:w-[420px] lg:w-[440px] snap-start flex flex-col justify-between">
+              <div class="overflow-hidden rounded-sm aspect-[3/4] bg-moss/20 mb-4">
+                <img 
+                  src="assets/img/IMG_1840-Editar-1024x1536.jpg" srcset="assets/img/IMG_1840-Editar-683x1024.jpg 683w, assets/img/IMG_1840-Editar-1024x1536.jpg 1024w" sizes="(max-width: 767px) 100vw, 60vw" loading="lazy" 
+                  alt="Texturas de folhagens preservadas"
+                  class="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                />
+              </div>
+              <div class="flex items-baseline justify-between border-t border-gold/25 pt-3 text-xs">
+                <span class="text-cream font-medium tracking-wide">Mix de Folhagens & Musgo Natural</span>
+                <span class="text-cream/50">Acabamento Artesanal</span>
+              </div>
+            </article>
+
+            <!-- Slide 9 -->
+            <article class="project-card shrink-0 w-[84vw] sm:w-[540px] lg:w-[600px] snap-start flex flex-col justify-between">
+              <div class="overflow-hidden rounded-sm aspect-[16/11] bg-moss/20 mb-4">
+                <img 
+                  src="assets/img/IMG_1808-Editar-1536x1024.jpg" srcset="assets/img/IMG_1808-Editar-768x512.jpg 768w, assets/img/IMG_1808-Editar-1536x1024.jpg 1536w" sizes="(max-width: 767px) 100vw, 60vw" loading="lazy" 
+                  alt="Painel botânico horizontal"
+                  class="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
+                />
+              </div>
+              <div class="flex items-baseline justify-between border-t border-gold/25 pt-3 text-xs">
+                <span class="text-cream font-medium tracking-wide">Painel Botânico Integrado à Arquitetura</span>
+                <span class="text-cream/50">Santa Catarina</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         7. PARA QUEM (SUA CASA / EMPRESAS / ARQUITETOS)
+         ========================================== -->
+    <section class="bg-cream text-forest py-28 md:py-40 px-6 md:px-12 lg:px-20">
+      <div class="max-w-[1600px] mx-auto">
+        <div class="max-w-3xl mb-16 md:mb-24">
+          <p class="eyebrow text-moss mb-3">05 / Aplicações Sob Medida</p>
+          <h2 class="title-section text-forest">
+            Para quem busca <span class="italic font-normal text-moss">permanência</span> e estética impecável.
+          </h2>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
+          <!-- Card 1: Sua Casa -->
+          <div class="bg-sage/55 border border-gold/30 p-8 md:p-12 flex flex-col justify-between rounded-sm">
+            <div>
+              <span class="eyebrow text-moss block mb-4">Residencial</span>
+              <h3 class="font-serif text-4xl text-forest mb-5">Sua casa</h3>
+              <p class="text-slateText text-base font-light leading-relaxed mb-8">
+                Para salas com pé-direito duplo, lavabos, halls de entrada, escadas ou apartamentos de praia onde você deseja o aconchego do verde natural mesmo viajando por semanas.
+              </p>
+            </div>
+            <a 
+              href="https://wa.me/554797003300?text=Ol%C3%A1%21%20Gostaria%20de%20um%20or%C3%A7amento%20para%20a%20minha%20casa."
+              target="_blank"
+              rel="noopener noreferrer"
+              class="magnetic-btn inline-flex items-center justify-between w-full border border-forest/25 hover:border-moss hover:bg-moss hover:text-cream text-forest px-6 py-4 rounded-full text-xs uppercase tracking-[0.18em] transition-all duration-300"
+            >
+              <span>Orçar para minha casa</span>
+              <span>→</span>
+            </a>
+          </div>
+
+          <!-- Card 2: Empresas -->
+          <div class="bg-forest text-cream border border-gold/30 p-8 md:p-12 flex flex-col justify-between rounded-sm">
+            <div>
+              <span class="eyebrow text-gold block mb-4">Corporativo & Comercial</span>
+              <h3 class="font-serif text-4xl text-cream mb-5">Empresas</h3>
+              <p class="text-cream/75 text-base font-light leading-relaxed mb-8">
+                Recepções corporativas, salas de conselho, clínicas médicas, restaurantes e hotéis. Transmita sofisticação e bem-estar biofílico sem custos mensais de jardinagem ou trocas constantes de vasos.
+              </p>
+            </div>
+            <a 
+              href="https://wa.me/554797003300?text=Ol%C3%A1%21%20Gostaria%20de%20um%20or%C3%A7amento%20para%20a%20minha%20empresa%2Fespa%C3%A7o%20comercial."
+              target="_blank"
+              rel="noopener noreferrer"
+              class="magnetic-btn inline-flex items-center justify-between w-full bg-moss hover:bg-[#365f10] text-cream px-6 py-4 rounded-full text-xs uppercase tracking-[0.18em] transition-all duration-300"
+            >
+              <span>Orçar para minha empresa</span>
+              <span>→</span>
+            </a>
+          </div>
+
+          <!-- Card 3: Arquitetos -->
+          <div class="bg-sage/55 border border-gold/30 p-8 md:p-12 flex flex-col justify-between rounded-sm">
+            <div>
+              <span class="eyebrow text-moss block mb-4">Parceria Técnica</span>
+              <h3 class="font-serif text-4xl text-forest mb-5">Arquitetos</h3>
+              <p class="text-slateText text-base font-light leading-relaxed mb-8">
+                Apoiamos seu escritório desde a especificação até a entrega final. Enviamos mostruários, analisamos plantas e cortes, e garantimos que o cliente receba exatamente a estética planejada no 3D.
+              </p>
+            </div>
+            <a 
+              href="https://wa.me/554797003300?text=Ol%C3%A1%21%20Sou%20arquiteto%28a%29%20e%20gostaria%20de%20especificar%20a%20Conex%C3%A3o%20Preservada%20em%20um%20projeto."
+              target="_blank"
+              rel="noopener noreferrer"
+              class="magnetic-btn inline-flex items-center justify-between w-full border border-forest/25 hover:border-moss hover:bg-moss hover:text-cream text-forest px-6 py-4 rounded-full text-xs uppercase tracking-[0.18em] transition-all duration-300"
+            >
+              <span>Especificar em projeto</span>
+              <span>→</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         8. COMO TRABALHAMOS (4 STICKY STACKING CARDS)
+         ========================================== -->
+    <section id="como-trabalhamos" class="bg-cream text-forest pb-28 md:pb-40 px-6 md:px-12 lg:px-20">
+      <div class="max-w-[1300px] mx-auto">
+        <div class="max-w-3xl mb-16 md:mb-24">
+          <p class="eyebrow text-moss mb-3">06 / Como Trabalhamos</p>
+          <h2 class="title-section text-forest">
+            Um processo fluido, do primeiro <span class="italic font-normal text-moss">olhar</span> à instalação limpa.
+          </h2>
+        </div>
+
+        <!-- Pilha de Cartões Sticky -->
+        <div class="space-y-8 md:space-y-12 relative">
+          <!-- Etapa 01 -->
+          <div class="sticky top-24 z-10 bg-forest text-cream border border-gold/30 rounded-sm p-8 md:p-14 shadow-2xl">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+              <div class="lg:col-span-3">
+                <span class="font-serif italic text-5xl md:text-7xl text-gold">01</span>
+                <p class="eyebrow text-gold/80 mt-2">Diagnóstico Rápido</p>
+              </div>
+              <div class="lg:col-span-9 space-y-4">
+                <h3 class="font-serif text-3xl md:text-5xl text-cream font-light">
+                  Conversa no WhatsApp com fotos e medidas
+                </h3>
+                <p class="text-cream/75 text-base md:text-lg font-light leading-relaxed max-w-2xl">
+                  Você nos envia uma foto ou vídeo do ambiente (ou a planta do arquiteto) junto com as medidas aproximadas. Entendemos seu estilo, a incidência de luz e o efeito desejado.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Etapa 02 -->
+          <div class="sticky top-28 z-20 bg-[#122615] text-cream border border-gold/35 rounded-sm p-8 md:p-14 shadow-2xl">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+              <div class="lg:col-span-3">
+                <span class="font-serif italic text-5xl md:text-7xl text-gold">02</span>
+                <p class="eyebrow text-gold/80 mt-2">Curadoria Botânica</p>
+              </div>
+              <div class="lg:col-span-9 space-y-4">
+                <h3 class="font-serif text-3xl md:text-5xl text-cream font-light">
+                  Projeto e orçamento detalhado
+                </h3>
+                <p class="text-cream/75 text-base md:text-lg font-light leading-relaxed max-w-2xl">
+                  Definimos a composição ideal de folhagens, musgos ou espécies arbóreas e apresentamos uma proposta transparente, com prazos claros e visita técnica quando necessário.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Etapa 03 -->
+          <div class="sticky top-32 z-30 bg-[#18301B] text-cream border border-gold/40 rounded-sm p-8 md:p-14 shadow-2xl">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+              <div class="lg:col-span-3">
+                <span class="font-serif italic text-5xl md:text-7xl text-gold">03</span>
+                <p class="eyebrow text-gold/80 mt-2">Ateliê Próprio</p>
+              </div>
+              <div class="lg:col-span-9 space-y-4">
+                <h3 class="font-serif text-3xl md:text-5xl text-cream font-light">
+                  Produção sob medida em Joinville
+                </h3>
+                <p class="text-cream/75 text-base md:text-lg font-light leading-relaxed max-w-2xl">
+                  Boa parte da composição é pré-estruturada artesanalmente em nosso ateliê em Joinville, selecionando ramo por ramo para que a instalação no seu imóvel seja rápida e silenciosa.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Etapa 04 -->
+          <div class="sticky top-36 z-40 bg-moss text-cream border border-gold/50 rounded-sm p-8 md:p-14 shadow-2xl">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+              <div class="lg:col-span-3">
+                <span class="font-serif italic text-5xl md:text-7xl text-gold">04</span>
+                <p class="eyebrow text-cream/80 mt-2">Entrega Impecável</p>
+              </div>
+              <div class="lg:col-span-9 space-y-4">
+                <h3 class="font-serif text-3xl md:text-5xl text-cream font-light">
+                  Instalação pela nossa equipe
+                </h3>
+                <p class="text-cream/85 text-base md:text-lg font-light leading-relaxed max-w-2xl">
+                  Nossa própria equipe realiza a montagem final e o acabamento orgânico no local, deixando o ambiente completamente limpo e pronto para ser vivido no mesmo dia.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         9. FAQ EM ACORDEÃO ELEGANTE
+         ========================================== -->
+    <section id="faq" class="bg-cream text-forest pb-28 md:pb-40 px-6 md:px-12 lg:px-20 border-t border-gold/30 pt-24">
+      <div class="max-w-[1400px] mx-auto grid grid-cols-1 lg:grid-cols-12 gap-12">
+        <div class="lg:col-span-5">
+          <p class="eyebrow text-moss mb-3">07 / Perguntas Frequentes</p>
+          <h2 class="title-section text-forest mb-6">
+            Transparência sobre a <span class="italic font-normal text-moss">planta preservada.</span>
+          </h2>
+          <p class="text-slateText text-base font-light leading-relaxed mb-8">
+            Explicamos com clareza como funciona a tecnologia de preservação para que você tenha certeza de que ela é a escolha certa para o seu espaço.
+          </p>
+          <a 
+            href="https://wa.me/554797003300?text=Ol%C3%A1%21%20Tenho%20uma%20d%C3%BAvida%20sobre%20as%20plantas%20preservadas."
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-flex items-center space-x-3 text-xs uppercase tracking-[0.2em] text-moss font-medium border-b border-moss pb-1.5 hover:text-forest"
+          >
+            <span>Tirar outra dúvida no WhatsApp</span>
+            <span>→</span>
+          </a>
+        </div>
+
+        <div class="lg:col-span-7 border-t border-gold/40">
+          <!-- Pergunta 1 -->
+          <div class="faq-item border-b border-gold/40 py-6">
+            <button class="faq-toggle w-full flex items-center justify-between text-left focus:outline-none group">
+              <span class="font-serif text-2xl md:text-3xl text-forest group-hover:text-moss transition-colors pr-6">É planta de verdade?</span>
+              <span class="faq-icon text-gold text-2xl font-light transition-transform duration-300 shrink-0">+</span>
+            </button>
+            <div class="faq-answer">
+              <p class="pt-4 text-slateText text-base font-light leading-relaxed">
+                Sim, 100% natural. Não utilizamos plantas de plástico ou tecido. As folhagens, musgos e galhos são plantas reais que passam por um processo de estabilização biológica, no qual a seiva natural é substituída por uma solução ecológica conservante que mantém a maciez, a textura e o aspecto de folha fresca.
+              </p>
+            </div>
+          </div>
+
+          <!-- Pergunta 2 -->
+          <div class="faq-item border-b border-gold/40 py-6">
+            <button class="faq-toggle w-full flex items-center justify-between text-left focus:outline-none group">
+              <span class="font-serif text-2xl md:text-3xl text-forest group-hover:text-moss transition-colors pr-6">Quanto tempo dura?</span>
+              <span class="faq-icon text-gold text-2xl font-light transition-transform duration-300 shrink-0">+</span>
+            </button>
+            <div class="faq-answer">
+              <p class="pt-4 text-slateText text-base font-light leading-relaxed">
+                Dura muitos anos mantendo sua beleza e flexibilidade quando instalada em ambiente interno, protegida da incidência direta de sol e do contato com água ou umidade excessiva.
+              </p>
+            </div>
+          </div>
+
+          <!-- Pergunta 3 -->
+          <div class="faq-item border-b border-gold/40 py-6">
+            <button class="faq-toggle w-full flex items-center justify-between text-left focus:outline-none group">
+              <span class="font-serif text-2xl md:text-3xl text-forest group-hover:text-moss transition-colors pr-6">Precisa de cuidado?</span>
+              <span class="faq-icon text-gold text-2xl font-light transition-transform duration-300 shrink-0">+</span>
+            </button>
+            <div class="faq-answer">
+              <p class="pt-4 text-slateText text-base font-light leading-relaxed">
+                O cuidado é mínimo: não deve ser regada, podada nem pulverizada com água. Basta remover o pó superficial de tempos em tempos com um espanador eletrostático macio ou secador de cabelo no jato frio e suave.
+              </p>
+            </div>
+          </div>
+
+          <!-- Pergunta 4 -->
+          <div class="faq-item border-b border-gold/40 py-6">
+            <button class="faq-toggle w-full flex items-center justify-between text-left focus:outline-none group">
+              <span class="font-serif text-2xl md:text-3xl text-forest group-hover:text-moss transition-colors pr-6">Precisa de ponto de água ou luz?</span>
+              <span class="faq-icon text-gold text-2xl font-light transition-transform duration-300 shrink-0">+</span>
+            </button>
+            <div class="faq-answer">
+              <p class="pt-4 text-slateText text-base font-light leading-relaxed">
+                Não. Você não precisa de ponto hidráulico, ralo, impermeabilização nem iluminação específica para fotossíntese. A iluminação cênica comum de arquitetura (spots em LED) já valoriza perfeitamente o relevo das plantas.
+              </p>
+            </div>
+          </div>
+
+          <!-- Pergunta 5 -->
+          <div class="faq-item border-b border-gold/40 py-6">
+            <button class="faq-toggle w-full flex items-center justify-between text-left focus:outline-none group">
+              <span class="font-serif text-2xl md:text-3xl text-forest group-hover:text-moss transition-colors pr-6">Atrai insetos?</span>
+              <span class="faq-icon text-gold text-2xl font-light transition-transform duration-300 shrink-0">+</span>
+            </button>
+            <div class="faq-answer">
+              <p class="pt-4 text-slateText text-base font-light leading-relaxed">
+                Não. Como não há terra, água parada ou seiva viva, o jardim preservado não atrai mosquitos, formigas nem desenvolve fungos ou mofo, sendo seguro inclusive para clínicas, consultórios e áreas gastronômicas.
+              </p>
+            </div>
+          </div>
+
+          <!-- Pergunta 6 -->
+          <div class="faq-item border-b border-gold/40 py-6">
+            <button class="faq-toggle w-full flex items-center justify-between text-left focus:outline-none group">
+              <span class="font-serif text-2xl md:text-3xl text-forest group-hover:text-moss transition-colors pr-6">Atendem minha cidade?</span>
+              <span class="faq-icon text-gold text-2xl font-light transition-transform duration-300 shrink-0">+</span>
+            </button>
+            <div class="faq-answer">
+              <p class="pt-4 text-slateText text-base font-light leading-relaxed">
+                Nossa sede fica em Joinville (SC) e atendemos com equipe própria Joinville, Curitiba e cidades em um raio de até 40 km de ambas as regiões (incluindo litoral norte catarinense como Balneário Camboriú, Itapema e Itajaí). Consulte-nos para projetos especiais em outras localidades.
+              </p>
+            </div>
+          </div>
+
+          <!-- Pergunta 7 -->
+          <div class="faq-item border-b border-gold/40 py-6">
+            <button class="faq-toggle w-full flex items-center justify-between text-left focus:outline-none group">
+              <span class="font-serif text-2xl md:text-3xl text-forest group-hover:text-moss transition-colors pr-6">Como funciona o orçamento?</span>
+              <span class="faq-icon text-gold text-2xl font-light transition-transform duration-300 shrink-0">+</span>
+            </button>
+            <div class="faq-answer">
+              <p class="pt-4 text-slateText text-base font-light leading-relaxed">
+                É simples e rápido: clique em qualquer botão de WhatsApp desta página e envie uma foto do local com as medidas aproximadas (largura x altura). Com base nisso, elaboramos uma estimativa personalizada para o seu projeto.
+              </p>
+            </div>
+          </div>
+
+          <!-- Pergunta 8 -->
+          <div class="faq-item border-b border-gold/40 py-6">
+            <button class="faq-toggle w-full flex items-center justify-between text-left focus:outline-none group">
+              <span class="font-serif text-2xl md:text-3xl text-forest group-hover:text-moss transition-colors pr-6">Trabalham com arquitetos?</span>
+              <span class="faq-icon text-gold text-2xl font-light transition-transform duration-300 shrink-0">+</span>
+            </button>
+            <div class="faq-answer">
+              <p class="pt-4 text-slateText text-base font-light leading-relaxed">
+                Sim, temos grande orgulho de trabalhar lado a lado com arquitetos, designers de interiores e paisagistas — incluindo nossa participação na CASACOR SC 2025 com a Augen Arquitetura. Oferecemos suporte técnico completo para especificação.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================
+         10. CHAMADA FINAL EM TELA CHEIA COM FOTO ESCURA
+         ========================================== -->
+    <section class="relative min-h-[85vh] w-full flex items-center justify-center px-6 md:px-12 lg:px-20 py-28 overflow-hidden">
+      <!-- Foto Escura em Tela Cheia -->
+      <div class="absolute inset-0 z-0">
+        <img 
+          src="assets/img/IMG_1953-Editar-1536x1024.jpg" srcset="assets/img/IMG_1953-Editar-768x512.jpg 768w, assets/img/IMG_1953-Editar-1536x1024.jpg 1536w" sizes="(max-width: 767px) 100vw, 60vw" loading="lazy" 
+          alt="Ambiente com Jardim Preservado Conexão Preservada"
+          class="w-full h-full object-cover opacity-35"
+        />
+        <div class="absolute inset-0 bg-gradient-to-b from-forest/85 via-forest/75 to-forest"></div>
+      </div>
+
+      <div class="relative z-10 max-w-4xl mx-auto text-center">
+        <p class="eyebrow text-gold mb-6">Atendimento Exclusivo pelo WhatsApp</p>
+        <h2 class="title-hero text-cream mb-8">
+          Vamos levar o <span class="italic font-normal text-sage">verde</span> para o seu espaço?
+        </h2>
+        <p class="text-cream/80 font-light text-base md:text-xl max-w-2xl mx-auto mb-12 leading-relaxed">
+          Envie uma foto ou as medidas do seu ambiente e receba uma proposta sob medida da nossa equipe em Joinville e Curitiba.
+        </p>
+
+        <a 
+          href="https://wa.me/554797003300?text=Ol%C3%A1%21%20Quero%20levar%20o%20verde%20preservado%20para%20o%20meu%20espa%C3%A7o.%20Podemos%20conversar%3F"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="magnetic-btn inline-flex items-center space-x-4 bg-moss hover:bg-[#365f10] text-cream px-10 py-5 md:px-12 md:py-6 rounded-full text-sm md:text-base font-medium tracking-wider uppercase transition-all duration-300 shadow-2xl"
+        >
+          <!-- Ícone WhatsApp SVG -->
+          <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824zm-3.423-14.416c-6.627 0-12 5.373-12 12 0 2.126.556 4.124 1.529 5.856l-1.529 5.582 5.714-1.5c1.682.905 3.604 1.42 5.647 1.42 6.627 0 12-5.373 12-12 0-6.627-5.373-12-11.361-11.358z"/>
+          </svg>
+          <span>Pedir orçamento no WhatsApp</span>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==========================================
+       11. RODAPÉ EDITORIAL
+       ========================================== -->
+  <footer class="bg-forest text-cream/70 border-t border-gold/25 py-16 px-6 md:px-12 lg:px-20">
+    <div class="max-w-[1600px] mx-auto flex flex-col lg:flex-row items-start lg:items-center justify-between gap-10">
+      <div class="space-y-4">
+        <img 
+          src="assets/img/logo-e1777405286259-300x119.png" 
+          alt="Conexão Preservada" 
+          class="h-10 w-auto object-contain"
+          loading="lazy"
+        />
+        <p class="text-xs text-cream/50 max-w-sm font-light">
+          Jardins verticais, árvores e musgo 100% naturais preservados. Produção sob medida para residências, empresas e arquitetura.
+        </p>
+      </div>
+
+      <div class="space-y-2 text-xs md:text-sm font-light">
+        <p class="text-cream">Rua Caçador, 60 – Anita Garibaldi, Joinville – SC</p>
+        <p class="text-cream/60">CNPJ 52.476.755/0001-60</p>
+      </div>
+
+      <div class="flex flex-col sm:flex-row lg:flex-col items-start lg:items-end gap-3 text-xs uppercase tracking-[0.2em]">
+        <a 
+          href="https://www.instagram.com/conexaopreservadas/" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          class="text-gold hover:text-cream transition-colors"
+        >
+          Instagram @conexaopreservadas ↗
+        </a>
+        <a 
+          href="https://wa.me/554797003300?text=Ol%C3%A1%21%20Vim%20pelo%20site%20da%20Conex%C3%A3o%20Preservada." 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          class="text-cream/70 hover:text-cream transition-colors"
+        >
+          WhatsApp +55 (47) 9700-3300
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================
+       WHATSAPP FLUTUANTE (DESKTOP) E BARRA FIXA (MOBILE)
+       ========================================== -->
+  <!-- Desktop: Círculo Verde-Musgo com Leve Pulsação -->
+  <a 
+    href="https://wa.me/554797003300?text=Ol%C3%A1%21%20Estou%20no%20site%20da%20Conex%C3%A3o%20Preservada%20e%20gostaria%20de%20um%20or%C3%A7amento."
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Falar no WhatsApp"
+    class="magnetic-btn wa-pulse hidden md:flex fixed bottom-8 right-8 z-50 w-16 h-16 rounded-full bg-moss hover:bg-[#365f10] text-cream items-center justify-center border border-gold/40 shadow-2xl transition-colors duration-300"
+  >
+    <svg class="w-7 h-7 fill-current" viewBox="0 0 24 24">
+      <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824zm-3.423-14.416c-6.627 0-12 5.373-12 12 0 2.126.556 4.124 1.529 5.856l-1.529 5.582 5.714-1.5c1.682.905 3.604 1.42 5.647 1.42 6.627 0 12-5.373 12-12 0-6.627-5.373-12-11.361-11.358z"/>
+    </svg>
+  </a>
+
+  <!-- Mobile: Barra Fixa Inferior -->
+  <div class="md:hidden fixed bottom-0 left-0 right-0 z-50 bg-forest/95 backdrop-blur-md border-t border-gold/30 p-3">
+    <a 
+      href="https://wa.me/554797003300?text=Ol%C3%A1%21%20Estou%20no%20site%20da%20Conex%C3%A3o%20Preservada%20e%20gostaria%20de%20pedir%20um%20or%C3%A7amento."
+      target="_blank"
+      rel="noopener noreferrer"
+      class="w-full flex items-center justify-center space-x-3 bg-moss text-cream py-3.5 px-6 rounded-full text-xs uppercase tracking-[0.18em] font-medium shadow-lg"
+    >
+      <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24">
+        <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771z"/>
+      </svg>
+      <span>Pedir orçamento no WhatsApp</span>
+    </a>
+  </div>
+
+  <!-- ==========================================
+       BIBLIOTECAS CDN: LENIS + GSAP + SCROLLTRIGGER
+       ========================================== -->
+  <script src="https://unpkg.com/lenis@1.1.18/dist/lenis.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+
+  <!-- Animações, FAQ e interações -->
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>
